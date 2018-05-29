@@ -1,0 +1,412 @@
+#-------------------------------
+
+# Swordfish Root Directory
+
+#-------------------------------
+
+AI_HOME=F:\SwordfishClaimsBMLive
+
+#-------------------------------
+
+# Stylesheet
+
+#-------------------------------
+
+AI_STYLESHEET=default.css
+
+#-------------------------------
+
+# Log File
+
+#-------------------------------
+
+AI_TRACEFILE=F:\SwordfishClaimsBMLive\logs\swordfishClaimsBM.log
+
+#-------------------------------
+
+# DB Pools
+
+#-------------------------------
+
+
+
+
+
+AI_DBPOOL=meta,SQL,Provider=SQLOLEDB;Initial Catalog=swordfish_claimsBM;UID=SwordfishClaimsBM;PWD=Sw0rdf1sh;SERVER=SCLAWD0002\SQL201201;
+
+
+
+AI_DBPOOL=s2000,SQL,DSN=AG_SUBLONPR02_REP;UID=CLAWSBMRO;PWD=5u8scr18eC;
+
+
+
+#-------------------------------
+
+# LGX Reports 
+
+#-------------------------------
+
+F:\SwordfishClaimsBMLive\workbasketreports
+
+AI_LGX_HREF=/ClawsBM/workbasketreports
+
+#-------------------------------
+
+# Viewer Session Handling
+
+#-------------------------------
+
+AI_AF_SESSION=false
+
+
+
+#-------------------------------
+
+# Max Rows in Find Results
+
+#-------------------------------
+
+AI_QRYLIMIT=100
+
+AI_SOFTQRYLIMIT=100
+
+AI_PAGEQRYLIMIT=20
+
+#-------------------------------
+
+# System Security State 
+
+#-------------------------------
+
+SECURITY_STATE=on
+
+SECURITY_CASCADE=on
+
+SECURE_BROWSE=on
+
+#-------------------------------
+
+# Default Menu Buttons
+
+#-------------------------------
+
+AI_DEFAULTMENU=home,logon,browse
+
+#-------------------------------
+
+# Inline Display Config for
+
+# Browser / File Extension
+
+# Field 1 : Browser Type (MSFT/NSCP)
+
+# Field 2 : File Extension
+
+# Field 3 : P=Plugin
+
+#	    N=Native
+
+#	    X=No Inline Display
+
+# Field 4 : Plugin Params
+
+#-------------------------------
+
+AI_INLINE=MSFT,htm,N
+
+AI_INLINE=MSFT,txt,N
+
+AI_INLINE=MSFT,gif,N
+
+AI_INLINE=MSFT,jpg,N
+
+AI_INLINE=MSFT,doc,N
+
+AI_INLINE=MSFT,xls,N
+
+AI_INLINE=MSFT,ppt,N
+
+AI_INLINE=MSFT,xml,N
+
+AI_INLINE=MSFT,tif,A
+
+AI_INLINE=MSFT,lst,P,EBAR=1
+
+AI_INLINE=MSFT,mov,P
+
+
+
+AI_INLINE=NSCP,htm,P
+
+AI_INLINE=NSCP,txt,N
+
+AI_INLINE=NSCP,gif,N
+
+AI_INLINE=NSCP,jpg,N
+
+AI_INLINE=NSCP,tif,A
+
+AI_INLINE=NSCP,lst,P,EBAR=1
+
+AI_INLINE=NSCP,mov,P
+
+
+
+#-------------------------------
+
+# Document Display Margins
+
+#-------------------------------
+
+AI_MARGIN=0
+
+AI_MARGIN_METADATA=10
+
+AI_MARGIN_BROWSE=10
+
+AI_MARGIN_SEARCH=10
+
+AI_MARGIN_MAIN=10
+
+
+
+#-------------------------------
+
+# Container Sequence Control
+
+#-------------------------------
+
+AI_ORDERED_CONTAINERS=false
+
+
+
+#-------------------------------
+
+# Other Configuration
+
+#-------------------------------
+
+AI_REMARK_STAMP=on
+
+AI_DEL_SU_ONLY=on
+
+AI_BROWSE_SU_ONLY=off
+
+AI_SUFFIXING=on
+
+AI_CASCADE_DELETE=on
+
+IIS_LOGDIR=C:/WINDOWS/SYSTEM32/LOGFILES/W3SVC1
+
+AI_MFP=none
+
+#-------------------------------
+
+# Auto Place Rules
+
+#-------------------------------
+
+AI_AP_PATH=200,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Strategy Category'
+
+AI_AP_PATH=300,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Currency Codes'
+
+
+
+AI_AP_PATH=1000,/SwordfishClaimsBMDocs,/F+'Inboxes'/F+inbox_year/F+inbox_month/F+inbox_date
+
+AI_AP_PATH=999,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Bordereau'
+
+AI_AP_PATH=1002,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'File Note'
+
+AI_AP_PATH=1005,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Claim Correspondence'
+
+AI_AP_PATH=1007,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Preliminary Report'
+
+AI_AP_PATH=1008,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Complaint'
+
+AI_AP_PATH=1009,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Report'
+
+AI_AP_PATH=1010,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Expert Appointment'
+
+AI_AP_PATH=1011,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Confirmation of Appointment'
+
+AI_AP_PATH=1012,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+sub_type/F+'Fee Bill'
+
+AI_AP_PATH=1013,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Legal'/F+'Writ'
+
+AI_AP_PATH=1014,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Initial Advice'
+
+AI_AP_PATH=1015,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Claims Advice'
+
+AI_AP_PATH=1016,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Release'
+
+AI_AP_PATH=1017,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Proof of Loss'
+
+AI_AP_PATH=1018,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Internal'/F+'Treasury Notification'
+
+AI_AP_PATH=1019,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Policy'/F+'Slip'
+
+AI_AP_PATH=1020,/SwordfishClaimsBMDocs,/F+'Claims'
+
+AI_AP_PATH=1021,/SwordfishClaimsBMDocs,/F+'Admin'/F+'virtualtype1'
+
+AI_AP_PATH=1022,/SwordfishClaimsBMDocs,/F+'Admin'/F+'virtualtype2'
+
+
+
+AI_AP_PATH=1447,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref
+
+AI_AP_PATH=1448,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Coverage Position'
+
+
+
+AI_AP_PATH=1496,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Workpackage Link'
+
+
+
+AI_AP_PATH=2971,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref
+
+AI_AP_PATH=3224,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Reports'/F+'Type'
+
+AI_AP_PATH=3221,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Reports'/F+'Columns'
+
+
+
+
+
+AI_AP_PATH=410,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Addendum'
+
+AI_AP_PATH=411,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Endorsement'
+
+AI_AP_PATH=412,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Premium Advice'
+
+AI_AP_PATH=413,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Premium Adjustment'
+
+AI_AP_PATH=414,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'NCB'
+
+AI_AP_PATH=415,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Email Pro Forma'
+
+AI_AP_PATH=416,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Loss Report Pro Forma'
+
+
+
+AI_AP_PATH=417,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Manager Input'
+
+AI_AP_PATH=418,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Consumer Complaint'
+
+AI_AP_PATH=419,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Large Loss Notification'
+
+AI_AP_PATH=420,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Managers'
+
+AI_AP_PATH=422,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Targets'
+
+AI_AP_PATH=423,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Tracking'
+
+AI_AP_PATH=424,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Peer Review'
+
+AI_AP_PATH=426,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'LIA'
+
+AI_AP_PATH=427,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'New Case Pro forma'
+
+AI_AP_PATH=428,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Financial Authority'
+
+AI_AP_PATH=429,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Authority Limits'
+
+AI_AP_PATH=430,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Currency ROE'
+
+AI_AP_PATH=431,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Subrogation'
+
+AI_AP_PATH=432,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Subrogation Form Pro forma'
+
+
+
+AI_AP_PATH=907,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Diary Events'
+
+AI_AP_PATH=908,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Diary'
+
+AI_AP_PATH=909,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Diary'
+
+AI_AP_PATH=910,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Diary'
+
+AI_AP_PATH=911,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Diary'
+
+AI_AP_PATH=912,/SwordfishClaimsBMDocs,/F+'Admin'/F+'Diary'
+
+
+
+AI_AP_PATH=814,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Outward Correspondence' 
+
+AI_AP_PATH=815,/SwordfishClaimsBMDocs,/F+'Claims'/C+Claim File+claim_ref/F+'Broker'/F+'Outward Slip-Policy'
+
+
+
+
+
+AI_TEMPLATE_LOCATION=\\sclaws0002\templatesshare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
